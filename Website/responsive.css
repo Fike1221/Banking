@@ -1,0 +1,339 @@
+@media screen and (min-width: 576px) {
+  .header__title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .header__img {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+  .btn--text {
+    border-bottom: none;
+    font-size: 3rem;
+  }
+  .header__title h1 {
+    font-size: 2.7rem;
+  }
+  .header__title h4 {
+    font-size: 2.3rem;
+  }
+  .section__description {
+    font-size: 3.7rem;
+  }
+  .section__title {
+    margin-bottom: 3rem;
+  }
+  .section__header {
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+  }
+  .features__icon {
+    width: 7rem;
+    height: 7rem;
+  }
+  .features__header {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+  .features__feature p,
+  .operations__tab,
+  .operations__tab span {
+    font-size: 1.8rem;
+  }
+  .operations__tab {
+    padding: 1.5rem;
+  }
+  .operations__content {
+    padding: 3rem;
+  }
+  .operations__icon {
+    width: 6rem;
+    height: 6rem;
+  }
+  .testimonial__header,
+  .operations__content h5 {
+    font-size: 2rem;
+  }
+  .testimonial__text,
+  .operations__content p {
+    font-size: 1.8rem;
+  }
+  .next-step {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* .nav__links {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    height: auto;
+  } */
+  .nav__item {
+    margin-inline: 1rem;
+  }
+  /* .toggle__menu {
+    display: none;
+  } */
+  .header__title {
+    padding: 2rem;
+  }
+  .header__title h1 {
+    font-size: 3.5rem;
+  }
+  .header__title h4 {
+    font-size: 3rem;
+  }
+  .section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .features__icon svg {
+    width: 4rem;
+    height: 4rem;
+  }
+  .features__feature p,
+  .operations__tab,
+  .operations__tab span {
+    font-size: 2.2rem;
+  }
+  .section__description {
+    font-size: 4rem;
+  }
+  .operations__tab {
+    padding: 1.6rem;
+  }
+  .operations__content--active {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .operations__icon {
+    width: 8rem;
+    height: 8rem;
+    display: grid;
+    grid-template-columns: 100%;
+    place-self: center;
+  }
+  .operations__icon svg {
+    display: grid;
+    grid-template-columns: 100%;
+    place-self: center;
+    width: 4em;
+    height: 4rem;
+  }
+  .operations__content h5 {
+    margin-top: 2rem;
+  }
+  .operations__content p {
+    grid-column: 2;
+  }
+  .testimonial__header,
+  .operations__content h5 {
+    font-size: 2.5rem;
+  }
+  .testimonial__text,
+  .footer__copyright,
+  .footer__link,
+  .operations__content p {
+    font-size: 2rem;
+  }
+  .section--sign-up .section__header {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-left: auto;
+  }
+  /* .footer {
+      padding: 8rem 10rem;
+    } */
+  .footer__logo {
+    margin: 4rem auto;
+  }
+  .modal__header {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+  }
+  .modal__form {
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 4rem;
+  }
+  .btn--close-modal {
+    font-size: 5rem;
+  }
+  .modal__form label {
+    font-size: 3rem;
+  }
+  .next--step,
+  .modal__form input {
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav__links {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    height: auto;
+  }
+
+  .toggle__menu {
+    display: none;
+  }
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 2.7rem;
+  }
+  .header__title {
+    padding: 6rem;
+  }
+  .header__title h1 {
+    font-size: 5rem;
+  }
+  .btn--text {
+    font-size: 4rem;
+    margin-top: 10rem;
+  }
+  .section {
+    padding: 20rem 8rem;
+  }
+  .section__header {
+    font-size: 5rem;
+    margin-bottom: 12rem;
+  }
+  .testimonial__header,
+  .operations__content h5,
+  .features__header {
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+  }
+  .features__icon,
+  .operations__icon {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .features__feature p,
+  .operations__content p,
+  .testimonial__text {
+    font-size: 3rem;
+  }
+
+  .slider {
+    height: 80rem;
+    /* width: 800px; */
+  }
+  .operations__tab,
+  .operations__tab span {
+    font-size: 2.5rem;
+  }
+  .operations__tab {
+    padding: 3rem;
+    margin-bottom: -3rem;
+  }
+  .operations__tab--active {
+    transform: translateY(-2rem);
+  }
+  .operations__content h5 {
+    margin-top: 6rem;
+  }
+  .slider__btn {
+    /* width: 8rem; */
+    /* height: 8rem; */
+    font-size: 3rem;
+    top: 55%;
+  }
+  .testimonial::before {
+    font-size: 15rem;
+  }
+  .testimonial__author {
+    margin-top: 6rem;
+  }
+  .testimonial__photo {
+    width: 20rem;
+    height: auto;
+    /* margin-top: 5rem; */
+  }
+  .testimonial__header {
+    margin-top: 4rem;
+  }
+  .testimonial__name {
+    font-size: 3rem;
+  }
+  .testimonial__location {
+    font-size: 2.5rem;
+  }
+  .section--sign-up .section__header {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-self: right;
+    /* margin: auto; */
+  }
+  .footer {
+    padding: 20rem;
+  }
+  .footer__nav {
+    gap: 6rem;
+  }
+  .footer__link,
+  .footer__copyright {
+    font-size: 3rem;
+  }
+  .footer__logo {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__title {
+    width: 1200px;
+  }
+  .section {
+    padding: 15rem 18rem;
+  }
+  .modal {
+    padding: 7rem;
+  }
+  .nav__logo {
+    width: min(100%, 20rem);
+  }
+  .modal__header {
+    font-size: 6rem;
+    margin-bottom: 10rem;
+  }
+  .btn--close-modal {
+    font-size: 10rem;
+  }
+  .nav__links,
+  .modal__form label {
+    font-size: 4rem;
+  }
+  .modal__form button,
+  .modal__form input {
+    font-size: 4rem;
+    padding: 1rem 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header__title {
+    width: 1200px;
+  }
+  .section {
+    padding: 15rem 30rem;
+  }
+  /* .nav__links {
+    font-size: 6rem;
+  } */
+}
